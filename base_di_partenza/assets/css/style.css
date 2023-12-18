@@ -301,44 +301,58 @@ table {
 }
 @media screen and (min-width: 1200px) {
   body {
-    max-width: 1200px;
+    max-width: 2500px;
     max-height: 100%;
   }
   h1 {
-    font-size: 520%;
+    font-size: 490%;
   }
   main > article > h2 {
     font-weight: bold;
-    font-size: 160%;
-  }
-  input {
-    width: 72%;
-    height: 4.4vh;
-  }
-  button {
-    height: 4.5vh;
-    width: 15%;
+    font-size: 180%;
   }
   table {
     width: 70%;
   }
   header > div > p {
     font-size: 155%;
+    display: inline-block;
   }
   header > nav > ul > li > a {
     font-size: 155%;
+    display: inline-block;
   }
   main > article > p,
   i {
     font-size: 170%;
   }
   main li {
-    font-size: 155%;
+    font-size: 160%;
   }
   footer {
-    font-size: 2.4rem;
+    font-size: 3.5rem;
   }
-  section > p {
-    font-size: 190%;
+  main > article iframe {
+    width: 50%;
+  }
+  main > article section {
+    width: 50%;
+  }
+  .iFrameEform {
+    display: flex;
+  }
+  aside h2 {
+    font-size: 210%;
+  }
+  aside div {
+    display: flex;
+    height: 210px;
+    align-items: center;
+    justify-content: center;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
